@@ -1,0 +1,40 @@
+
+    /* parent 1 */
+    .parent {
+      border: 5px solid red;
+      display: flex;
+      flex-direction: row;
+    }
+
+    /* parent 1 child item */
+    .item {
+      height: 50px;
+      margin:5px;
+      background: blue;
+      color: white;
+      text-align: center;
+      line-height: 50px;
+      font-weight: 600;
+      width: 50%;
+      flex-grow: 2;
+    }
+
+    /* parent 2 */
+    .parent-two {
+      border: 5px solid red;
+      display: flex;
+      flex-direction: row;
+    }
+
+    /* parent 2 child item */
+    .item {
+      height: 50px;
+      margin:5px;
+      background: blue;
+      color: white;
+      text-align: center;
+      line-height: 50px;
+      font-weight: 600;
+      width: 50%;
+      flex-grow: 2;
+    }
