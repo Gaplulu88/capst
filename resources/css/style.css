@@ -4,6 +4,8 @@
       border: 5px solid red;
       display: flex;
       flex-direction: row;
+      height: 500px;
+      flex-wrap:
     }
 
     /* parent 1 child item */
@@ -19,6 +21,10 @@
       flex-grow: 2;
     }
 
+    .item img {
+      width: 300px;
+      height: 300px;
+    }
     /* parent 2 */
     .parent-two {
       border: 5px solid red;
@@ -48,6 +54,9 @@
       align-items: center;
     }
 
+
+
+    /* header and nav */
     header {
       height: 70px;
       border-bottom: 1px solid green;
