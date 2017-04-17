@@ -38,3 +38,30 @@
       width: 50%;
       flex-grow: 2;
     }
+
+    /* banner and nav */
+    .flex-container {
+      width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header {
+      height: 70px;
+      border-bottom: 1px solid green;
+    }
+
+    .flex-container ul {
+      display: flex;
+    }
+
+    li {
+      padding: 10px;
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
