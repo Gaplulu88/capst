@@ -67,6 +67,11 @@
       height: 500px;
     }
 
+    .first .image-one img {
+        width: 500px;
+        height: 300px;
+    }
+
     .first {
       background-color: green;
       padding: 20px;
@@ -80,20 +85,37 @@
       flex-direction: column;
     }
 
+
     .second-a {
       background-color: blue;
       flex: 1;
     }
+    .second-a img {
+      height: 150px;
+      width: 150px;
+    }
+
 
     .second-b {
       background-color: orange;
       flex: 1;
     }
+    .second-b img {
+      height: 150px;
+      width: 150px;
+    }
+
 
     .second-c {
       background-color: aqua;
       flex: 1;
     }
+    .second-c img {
+      height: 150px;
+      width: 150px;
+    }
+
+
 
     /* box 3 */
   .three-row-container{
@@ -111,8 +133,8 @@
 
   .oneone img {
     flex: 1;
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     padding: 10px;
   }
 
@@ -121,8 +143,8 @@
   }
   .twotwo img {
     flex: 1;
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    width: 300px;
     padding: 10px;
   }
 
@@ -131,7 +153,52 @@
   }
     .threethree img {
       flex: 1;
-      height: 200px;
-      width: 250px;
+      height: 150px;
+      width: 300px;
       padding: 10px;
     }
+
+    /* box 4 */
+
+    .moving-pictures {
+      width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      border: 5px solid red;
+      height: 500px;
+    }
+
+    .hello {
+      background-color: green;
+      padding: 20px;
+      flex: 1;
+    }
+
+    .hello .image-one img {
+      width: 500px;
+      height: 300px;
+      flex: 1;
+    }
+
+    .last-row {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .last-row .milk  {
+        flex: 1;
+        background-color: yellow;
+    }
+
+    .last-row .milk-bone {
+        flex: 1;
+        background-color: blue;
+    }
+
+    .last-row .milk img{
+        width: 150px;
+        height: 150px;
+    }
+    .last-row .milk-bone img{
+      width: 150px;
+      height: 150px;
