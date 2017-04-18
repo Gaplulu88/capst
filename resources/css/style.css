@@ -1,6 +1,35 @@
 
-    /* parent 1 */
-    .parent {
+      /* header nav banner */
+      header {
+      height: 70px;
+      border-bottom: 1px solid green;
+      }
+
+      .flex-container ul {
+      display: flex;
+      }
+
+      li {
+      padding: 10px;
+      list-style-type: none;
+      }
+
+      ul li a {
+      text-decoration: none;
+      color: orange;
+      }
+
+      .flex-container {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+
+    /* box 1 */
+    .parent-one {
       border: 5px solid red;
       display: flex;
       flex-direction: row;
@@ -12,8 +41,7 @@
       height: 500px;
     }
 
-    /* parent 1 child item */
-    .parent .item {
+    .parent-one .item {
       height: 400px;
       margin:5px;
       background: red;
@@ -25,14 +53,12 @@
       flex-grow: 2;
     }
 
-    .parent img {
+    .parent-one img {
       width: 600px;
       height: 500px;
     }
 
-
-
-    /* parent 2 */
+    /* box 2 */
     .equal-height-container {
       width: 1000px;
       margin: 0 auto;
@@ -69,101 +95,43 @@
       flex: 1;
     }
 
-    /* parent 2 child item */
-    .item {
-      height: 50px;
-      margin:5px;
-      background: blue;
-      color: white;
-      text-align: center;
-      line-height: 50px;
-      font-weight: 600;
-      width: 50%;
-      flex-grow: 2;
-    }
+    /* box 3 */
+  .three-row-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    border: 5px solid red;
+    height: 500px;
 
-
-
-
-
-
-    /* parent 3 */
-    .parent-three {
-      border: 5px solid red;
-      display: flex;
-      flex-direction: row;
-      height: 300px;
-    }
-
-    /* parent 3 child item */
-    .item {
-      height: 50px;
-      margin:5px;
-      background: blue;
-      color: white;
-      text-align: center;
-      line-height: 50px;
-      font-weight: 600;
-      width: 50%;
-      flex-grow: 2;
-    }
-
-    /* parent 4 */
-    .parent-four {
-      border: 5px solid red;
-      display: flex;
-      flex-direction: row;
-      height: 300px;
-    }
-
-    /* parent 4 child item */
-    .item {
-      height: 50px;
-      margin:5px;
-      background: blue;
-      color: white;
-      text-align: center;
-      line-height: 50px;
-      font-weight: 600;
-      width: 50%;
-      flex-grow: 2;
-    }
-
-
-
-    /* banner and nav */
-    .flex-container {
-      width: 1000px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-
-
-    /* header and nav */
-    header {
-      height: 70px;
-      border-bottom: 1px solid green;
-    }
-
-    .flex-container ul {
-      display: flex;
-    }
-
-    li {
-      padding: 10px;
-      list-style-type: none;
-    }
-
-    ul li a {
-      text-decoration: none;
-      color: orange;
-    }
-
-
-  .content-parent img {
-    width: 200px;
-    height: 200px;
   }
+
+  .oneone {
+    flex: 1;
+  }
+
+  .oneone img {
+    flex: 1;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .twotwo {
+    flex: 1;
+  }
+  .twotwo img {
+    flex: 1;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+  }
+
+  .threethree {
+    flex: 1;
+  }
+    .threethree img {
+      flex: 1;
+      height: 200px;
+      width: 250px;
+      padding: 10px;
+    }
