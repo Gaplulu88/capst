@@ -6,13 +6,17 @@
       flex-direction: row;
       height: 500px;
       flex-wrap:
+      width: 1000px;
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items: center;
     }
 
     /* parent 1 child item */
-    .item {
-      height: 50px;
+    .parent .item {
+      height: 400px;
       margin:5px;
-      background: blue;
+      background: red;
       color: white;
       text-align: center;
       line-height: 50px;
@@ -21,15 +25,22 @@
       flex-grow: 2;
     }
 
-    .item img {
-      width: 300px;
-      height: 300px;
+    .parent img {
+      width: 600px;
+      height: 500px;
     }
+
+
+
     /* parent 2 */
     .parent-two {
       border: 5px solid red;
       display: flex;
       flex-direction: row;
+      height: 300px;
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items: center;
     }
 
     /* parent 2 child item */
@@ -44,6 +55,50 @@
       width: 50%;
       flex-grow: 2;
     }
+
+    /* parent 3 */
+    .parent-three {
+      border: 5px solid red;
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+    }
+
+    /* parent 3 child item */
+    .item {
+      height: 50px;
+      margin:5px;
+      background: blue;
+      color: white;
+      text-align: center;
+      line-height: 50px;
+      font-weight: 600;
+      width: 50%;
+      flex-grow: 2;
+    }
+
+    /* parent 4 */
+    .parent-four {
+      border: 5px solid red;
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+    }
+
+    /* parent 4 child item */
+    .item {
+      height: 50px;
+      margin:5px;
+      background: blue;
+      color: white;
+      text-align: center;
+      line-height: 50px;
+      font-weight: 600;
+      width: 50%;
+      flex-grow: 2;
+    }
+
+
 
     /* banner and nav */
     .flex-container {
@@ -71,6 +126,13 @@
       list-style-type: none;
     }
 
-    a {
+    ul li a {
       text-decoration: none;
+      color: orange;
     }
+
+
+  .content-parent img {
+    width: 200px;
+    height: 200px;
+  }
