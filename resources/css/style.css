@@ -121,18 +121,19 @@
       flex: 1;
     }
 
-      .first p {
-        font-size: 12px;
-        font-family: merriweather;
+    .first p {
+      font-size: 12px;
+      font-family: merriweather;
 
-      }
+    }
+
     .second {
-      background-color: yellow;
+      background-color: white;
       flex: 1;
       display: flex;
       flex-direction: column;
+      border-left: 3px solid lightgray;
     }
-
 
     .second-a {
       background-color: white;
@@ -145,30 +146,57 @@
       height: 125px;
       width: 125px;
       padding-top: 25px;
+      padding-left: 10px;
     }
 
-    .second-a h2 h3 a {
-      text-
+    .second-a ul li {
+      line-height: 10px;
+      margin-top: -10px;
+      padding-top: 20px;
     }
 
     .second-b {
-      background-color: orange;
+      background-color: white;
       flex: 1;
-    }
-    .second-b img {
-      height: 150px;
-      width: 150px;
+      display: flex;
+      flex-direction: row;
     }
 
+    .second-b img {
+      height: 125px;
+      width: 125px;
+      padding-top: 25px;
+      padding-left: 10px;
+    }
+
+    .second-b ul li {
+      line-height: 10px;
+      margin: -10px;
+      padding-top: 20px;
+    }
 
     .second-c {
-      background-color: aqua;
+      background-color: white;
       flex: 1;
+      display: flex;
+      flex-direction: row;
     }
+
     .second-c img {
-      height: 150px;
-      width: 150px;
+      height: 125px;
+      width: 125px;
+      padding-top: 25px;
+      padding-left: 10px;
     }
+
+    .second-c ul li {
+      line-height: 10px;
+      margin: -10px;
+      padding-top: 20px;
+    }
+
+
+
 
 
 
