@@ -48,7 +48,7 @@
 
     /* box 1 */
     .one-landing {
-      border: 5px solid red;
+      border: 2px solid darkgray;
       display: flex;
       flex-direction: row;
       height: 500px;
@@ -105,7 +105,7 @@
       width: 1000px;
       margin: 0 auto;
       display: flex;
-      border: 5px solid red;
+      border: 2px solid darkgray;
       height: 550px;
     }
 
@@ -197,17 +197,14 @@
     }
 
 
-
-
-
-
     /* box 3 */
   .three-row-container{
     width: 1000px;
     margin: 0 auto;
     display: flex;
-    border: 5px solid red;
+    border: 2px solid darkgray;
     height: 650px;
+    background-color: lightgray;
 
   }
 
@@ -220,10 +217,14 @@
     width: 300px;
     height: 150px;
     padding: 10px;
+    margin-left: 32px;
+    padding-right: 24px;
   }
 
-  .oneone h1{
+  .oneone p{
     color:;
+    margin-left: 40px;
+    padding-right: 24px;
   }
 
   .twotwo {
@@ -234,11 +235,13 @@
     height: 150px;
     width: 300px;
     padding: 10px;
+    margin-left: 0px;
+    padding-right: 24px;
   }
 
-  .twotwo h1 {
-    color: midnightblue;
-    font-family: merriweather;
+  .twotwo p {
+    margin-left: 32px;
+    padding-right: 24px;
   }
 
   .threethree {
@@ -247,11 +250,14 @@
     .threethree img {
       flex: 1;
       height: 150px;
-      width: 300px;
+      width: 250px;
       padding: 10px;
+      margin-left: 0px;
     }
 
-    .threethree {
+    .threethree p{
+      margin-left: 32px;
+      padding-right: 24px;
       color:;
     }
 
@@ -262,13 +268,13 @@
       width: 1000px;
       margin: 0 auto;
       display: flex;
-      border: 5px solid red;
+      border: 2px solid coral;
       height: 500px;
     }
 
     .hello {
-      background-color: green;
-      padding: 20px;
+      background-color: beige;
+      padding: 24px;
       flex: 1;
     }
 
@@ -276,6 +282,7 @@
       width: 500px;
       height: 300px;
       flex: 1;
+      padding: 24px;
     }
 
     .last-row {
@@ -285,12 +292,12 @@
     }
     .last-row .milk  {
         flex: 1;
-        background-color: yellow;
+        background-color: beige;
     }
 
     .last-row .milk-bone {
         flex: 1;
-        background-color: blue;
+        background-color: beige;
     }
 
     .last-row .milk img{
@@ -307,6 +314,8 @@
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      margin-left: 24px;
+      margin-top: 10px;
     }
 
     .footerball-one footer {
