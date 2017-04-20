@@ -285,12 +285,17 @@
       padding: 24px;
     }
 
+    .hello .image-one h2 p {
+      margin: 10px;
+      font-family: indie flower;
+    }
+
     .last-row {
       display: flex;
       flex-direction: column;
       flex: 1;
     }
-    .last-row .milk  {
+    .last-row .milk {
         flex: 1;
         background-color: beige;
     }
@@ -303,11 +308,32 @@
     .last-row .milk img{
         width: 150px;
         height: 150px;
+        margin-top: 25px;
     }
     .last-row .milk-bone img{
       width: 150px;
       height: 150px;
+      margin-top: -40px;
     }
+
+    .last-row-final {
+      diplay: flex;
+      flex-direction: column;
+      background-color: beige;
+      flex: 1;
+    }
+
+      .last-row-final .item-seven {
+        margin-top: 50px;
+        height: 150px;
+        width: 150px;
+      }
+
+      .last-row-final .item-eight {
+        height: 150px;
+        width: 150px;
+        margin-top: 50px;
+      }
 
     /* footer */
     .footerball {
@@ -326,3 +352,12 @@
       font-size: 15px;
       font-family: cursive;
     }
+
+
+      /*responsive media query */
+
+      @media only screen and (max-width: 500px)  {
+            body {
+              background-color: lightblue;
+            }
+      }
