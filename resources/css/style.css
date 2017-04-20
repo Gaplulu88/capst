@@ -18,7 +18,7 @@
 
       ul li a {
       text-decoration: none;
-      color: #e74373;
+      color: #8000ff;
       font-family: Merriweather;
       font-size: 20px;
       }
@@ -150,7 +150,7 @@
     }
 
     .second-a ul li {
-      line-height: 10px;
+      line-height: 20px;
       margin-top: -10px;
       padding-top: 20px;
     }
@@ -170,7 +170,7 @@
     }
 
     .second-b ul li {
-      line-height: 10px;
+      line-height: 20px;
       margin: -10px;
       padding-top: 20px;
     }
@@ -190,9 +190,10 @@
     }
 
     .second-c ul li {
-      line-height: 10px;
+      line-height: 20px;
       margin: -10px;
       padding-top: 20px;
+      color: ;
     }
 
 
@@ -206,7 +207,7 @@
     margin: 0 auto;
     display: flex;
     border: 5px solid red;
-    height: 500px;
+    height: 650px;
 
   }
 
@@ -221,6 +222,10 @@
     padding: 10px;
   }
 
+  .oneone h1{
+    color:;
+  }
+
   .twotwo {
     flex: 1;
   }
@@ -229,6 +234,11 @@
     height: 150px;
     width: 300px;
     padding: 10px;
+  }
+
+  .twotwo h1 {
+    color: midnightblue;
+    font-family: merriweather;
   }
 
   .threethree {
@@ -240,6 +250,12 @@
       width: 300px;
       padding: 10px;
     }
+
+    .threethree {
+      color:;
+    }
+
+
 
     /* box 4 */
     .moving-pictures {
