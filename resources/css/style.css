@@ -356,8 +356,33 @@
 
       /*responsive media query */
 
-      @media only screen and (max-width: 500px)  {
+      @media only screen and (max-width: 400px)  {
             body {
               background-color: lightblue;
+              margin-left: -400px;
+              }
+
+              .first .image-one img {
+                  width: 10px;
+                  height: 10px;
+                  padding-top: 32px;
+              }
+                .first p {
+                  font-size: 1px;
+                }
+                .first h1 {
+                  font-size: 1px;
+                }
+
+              .equal-height-container {
+                width: 10px;
+              }
+
+                .one-landing {
+                  width: 500px;
+                }
+
+                .item-1 img {
+                  width: 10px;
+                }
             }
-      }
